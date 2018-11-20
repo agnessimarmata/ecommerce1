@@ -16,14 +16,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
-<script src="js/jquery-1.11.1.min.js"></script>
+<script src="jquery-1.11.1.min.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="move-top.js"></script>
+<script type="text/javascript" src="easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -34,11 +34,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- start-smoth-scrolling -->
 <!-- start menu -->
-<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="js/megamenu.js"></script>
+<link href="megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="megamenu.js"></script>
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
-<script src="js/menu_jquery.js"></script>
-<script src="js/simpleCart.min.js"> </script>
+<script src="menu_jquery.js"></script>
+<script src="simpleCart.min.js"> </script>
 <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
 </head>
 	
@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="checkout.html">
 				<h3> <div class="total">
 					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-					<img src="images/cart1.png" alt=""/></h3>
+					<img src="cart1.png" alt=""/></h3>
 				</a>
 				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 				<div class="clearfix"> </div>
@@ -122,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner">
 		<div class="container">
 <!-- Slider-starts-Here -->
-				<script src="js/responsiveslides.min.js"></script>
+				<script src="responsiveslides.min.js"></script>
 				 <script>
 				    // You can also use "$(window).load(function() {"
 				    $(function () {
@@ -169,12 +169,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					?>
 	<div class="single-page">					 
 		<div class="flexslider details-lft-inf">
-			<img src="images/<?php echo $row['Gambar']; ?>" class="img-responsive2" >
+			<img src="<?php echo $row['Gambar']; ?>" class="img-responsive2" >
 		</div>
         
 			<!-- FlexSlider -->
-			  <script defer src="js/jquery.flexslider.js"></script>
-			<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+			  <script defer src="jquery.flexslider.js"></script>
+			<link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
 
 				
 		<div class="details-left-info">
@@ -263,7 +263,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="related-products">
 		<h3>Related Products</h3>
 		<div class="col-md-4 related products-grid">
-			<img src="images/19.jpg" alt=" " class="img-responsive" />
+			<img src="19.jpg" alt=" " class="img-responsive" />
 			<div class="simpleCart_shelfItem rel">
 				<p><span class="overline">$ 1000</span> <span class="item_price val">$ 729</span></p>
 				<div class="single-but item_add">
@@ -272,7 +272,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<div class="col-md-4 related products-grid">
-			<img src="images/18.jpg" alt=" " class="img-responsive" />
+			<img src="18.jpg" alt=" " class="img-responsive" />
 			<div class="simpleCart_shelfItem rel">
 				<p><span class="overline">$ 1000</span> <span class="item_price val">$ 729</span></p>
 				<div class="single-but item_add">
@@ -281,7 +281,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<div class="col-md-4 related products-grid">
-			<img src="images/20.jpg" alt=" " class="img-responsive" />
+			<img src="20.jpg" alt=" " class="img-responsive" />
 			<div class="simpleCart_shelfItem rel">
 				<p><span class="overline">$ 1000</span> <span class="item_price val">$ 729</span></p>
 				<div class="single-but item_add">
@@ -333,11 +333,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<div class="footer-copy">
-		<p>© 2015 Pendent Store. All rights reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a></p>
+		<p>© 2015 Jewelry Store. All rights reserved | Design by <a href=""> agnessimarmata</a></p>
 	</div>
 <!-- //footer -->
 <!-- for bootstrap working -->
-		<script src="js/bootstrap.js"> </script>
+		<script src="bootstrap.js"> </script>
 <!-- //for bootstrap working -->
 </body>
 </html>
